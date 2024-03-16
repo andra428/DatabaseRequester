@@ -1,0 +1,13 @@
+com\example\demo\DemoApplication.class
+com\example\demo\controller\DisciplinaController.class
+com\example\demo\dto\LegaturiDTO.class
+com\example\demo\repository\LegaturiRepository.class
+com\example\demo\dto\StudentDTO.class
+com\example\demo\hateoas\StudentHateoas.class
+com\example\demo\repository\DisciplinaRepository.class
+com\example\demo\autentificare\users.class
+com\example\demo\controller\StudentController.class
+com\example\demo\dto\DisciplinaDTO.class
+com\example\demo\repository\StudentRepository.class
+com\example\demo\controller\LoginController.class
+com\example\demo\hateoas\DisciplinaHateoas.class
