@@ -97,7 +97,7 @@ This is a Spring Boot web application that allows you to manag disciplines. It u
 Before running the application, make sure you have the following installed:
 
 - **Java 17** or later
-- **Docker** for MariaDB container setup
+- **Docker** for MongoDB container setup
 
 ## Installation
 ### Set up the MongoDB with Docker
@@ -176,7 +176,7 @@ The following dependencies are included in this project:
 ## Python - gRPC Part
 
 This project is a Python application with gRPC and SQLAlchemy to manage users and their data, with token-based authentication using JWT. The application interacts with a 
-SQL database (MariaDB) using SQLAlchemy as the ORM, and gRPC is used to expose services for communication between the client and server.
+MySQL database (MariaDB) using SQLAlchemy as the ORM, and gRPC is used to expose services for communication between the client and server.
 
 ## Prerequisites
 
@@ -187,12 +187,12 @@ Before you start, ensure that you have the following installed on your machine:
 - **gRPC**: To enable communication between the server and clients.
 - **Protobuf**: For serializing the data exchanged between the server and client.
 - **SQLAlchemy**: For database interaction.
-
+- 
+## Installation
 You can install the necessary dependencies using pip:
 ```bash
 pip install grpcio grpcio-tools sqlalchemy pymysql jwt futures3
 ```
-## Installation
 
 ### Set Up the Database
 
